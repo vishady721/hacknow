@@ -202,6 +202,7 @@ def get_matches(satisfying_assignment, joint_dict):
     for match in matches_dict:
         if matches_dict[match]['options'] == []:
             del matches_dict[match]['options']
+    print(matches_dict)
     return matches_dict
 
 def update_worksheet_with_matches():
@@ -234,6 +235,7 @@ def update_worksheet_with_matches():
                 time.sleep(1)
                 matches_worksheet.update_cell(i, 14+3*k, volunteer_data[matches_with_id[request]['options'][k]]['Email'])
                 time.sleep(1)
+                matches_worksheet.update_cell(i, 15+3*k, volunteer_data[matches_with_id[request]['options'][k]]['Phone'])
         i+=1
 
 if __name__ == '__main__':
