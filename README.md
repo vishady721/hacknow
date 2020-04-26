@@ -1,6 +1,6 @@
 # hack:now submission
 ## Instructions:
-Download app-release.apk in order to download our android app! Berk_matching.py contains the algorithm for matching volunteers and seniors based on responses, and emailgenerator.py contains the script to send out automated emails. Additionally, database.csv contains the spreadsheet we ran the algorithm on containing test data, along with the resulting matches.
+Download app-release.apk in order to download our android app! Berk_matching.py contains the algorithm for matching volunteers and seniors based on responses, and emailgenerator.py contains the script to send out automated emails. Additionally, database.xlsx contains the spreadsheet we ran the algorithm on containing test data, along with the resulting matches.
 
 ## Just a Google Form?
 
