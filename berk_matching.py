@@ -119,7 +119,7 @@ def boolify_matching_problem(request_preferences, senior_limit, volunteer_abilit
     
     #once each condition's lists are created, concatenate them in order to form the overall CNF
     CNF = requests_preferences(request_preferences, senior_limit) + request_to_volunteer(request_preferences, volunteer_ability) 
-
+    
     return CNF
 
 
